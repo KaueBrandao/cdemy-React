@@ -8,6 +8,7 @@ import Login from './pages/login.jsx'
 import ErroPage from './router/erroPage.jsx'
 import Cadastro from './pages/cadastro.jsx'
 import Redefirnir from './pages/reset.jsx'
+import Produtos from './pages/produtos.jsx'
 
 
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
     {
       path: "/Redefinir",
       element: <Redefirnir/>,
+    },
+    {
+      path: "/Produtos",
+      element: <Produtos/>,
     },
     ]
   }

@@ -144,3 +144,36 @@
   color: white;
   border: 0;
 }
+
+/* Produtos */
+
+.produtos {
+  lex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.produtosItem {
+  padding: 20px;
+  background-color: rgba(167, 44, 167, 0.795);
+  margin: 20px;
+  border-radius: 20px;
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.produtosItem ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.produtosItem li {
+  text-decoration: none;
+  list-style-type: none;
+}
